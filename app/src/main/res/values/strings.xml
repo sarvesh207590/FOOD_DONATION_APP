@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">PROJECT</string>
+    <string name="the_sukarma_story">THE SUKARMA STORY</string>
+    <string name="sukarma_charitable_trust">Sukarma Charitable Trust</string>
+    <string name="donate_now">Donate now</string>
+    <string name="akshaya_patra_foundation">Akshaya Patra Foundation</string>
+    <string name="the_akshaya_story">The Akshaya Story</string>
+    <string name="we_are_hungry_please_donate">We are hungry please donate</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+
+    <string name="NGO2_info">The Akshaya Patra Foundation is an independent charitable trust registered under the Indian Trusts Act 1882 (Reg. No. 154). We endeavour to implement the Government of India’s PM POSHAN Initiative (formerly the Mid-Day Meal Scheme) to solve at scale the overarching societal issues of classroom hunger and malnutrition in the country.
+
+        It is our firm belief that investing in child nutrition and education is one of the most effective entry points for human development. Driven by this belief, we strive to provide children with a hot, nutritious and tasty mid-day meal every school day as an incentive to come to school. Thus, the vision – ‘No child in India shall be deprived of education because of hunger.’
+
+        Since the year 2000, we have endeavoured to reach out to children with wholesome mid-day meals every school day by leveraging technology and effectively harnessing the potential of the Public-Private Partnership (PPP) model. By establishing an extensive network of kitchens and partnering with the Government of India, state governments, UT administrations, corporate houses and philanthropists, we have created a system to address a social cause on a massive scale. Our efforts are in direct alignment with two critical Sustainable Development Goals (SDGs): SDG 2 – Zero Hunger and SDG 4 – Quality Education.
+
+        Currently, we serve over 2 million children studying in 24,082 government and government-aided schools and Anganwadi centres across 72 locations in 16 states and 2 union teritories</string>
+
+    <string name="NGO1_info">Sukarma Charitable trust was founded in 2017 and is registered under the Maharashtra State Government Act of 1950, having registration number E/10481/Thane. Based in Mumbai, works with a team of dedicated and skilled professionals to support and strengthen community groups in health, education, medical treatment, and women empowerment. We care for children, protect their welfare, and prepare them for the future are the most critical issues we can deal with in our lifetime.
+
+As a non-profit organization, our work includes providing shelter, education, and financial assistance for the education of underprivileged children (Orphans, Destitute, Needy and Neglected) along with financial aid for medication. We also support the empowerment of socially deprived women by providing Shelter, Education, and Income."</string>
+
+    <string name="sukarma_services"><ul><b><li>Education Programs:</li></b> Providing access to quality education for children in underserved communities. \n
+<b><li>Healthcare Initiatives:</li></b> Offering medical assistance and healthcare awareness programs.\n
+<b><li>Skill Development:</li></b> Empowering youth with vocational training and job placement services.</ul>
+</string>
+
+    <string name="sukarma_help">You can support Sukarma Charitable Trust by donating, volunteering, or spreading awareness about our cause.</string>
+    <string name="sukarma_contact">For more information or to get involved, please reach out to us:\n
+
+<b>Email:</b> info@sukarmacharitabletrust.org\n
+        \n
+<b>Phone:</b> +91-9930804078 \n
+        \n
+<b>Address:</b> Sawali plot no A 14, Khanda colony sector 7. Navi Mumbai, Maharashatra - 410206</string>
+
+    <string name="akshaya_help">
+        <b>1.Donate Now :</b>
+Contribute to feed nutritious meals to mid-day meal beneficiaries. Gain tax deduction under 80G of income tax act. \n
+\n
+<b>2.Be a social Volunteer:</b>
+Be a voice of Akshaya Patra by promoting our work on social media platforms, like our posts and share with your friends and family
+\n
+        \n
+<b>3.Fundraise to feed children:</b>
+Create a fundraising campaign to improve nutritional levels school children by providing mid-day meals
+    </string>
+    <string name="akshaya_contact">For more information or to get involved, please reach out to us:\n
+
+<b>Email:</b>donorcare@akshayapatra.org\n
+        \n
+<b>Phone:</b> +91 80 3014 3400 \n
+        \n
+<b>Address:</b>The Akshaya Patra Foundation \n
+#72, 3rd Floor, 3rd Main Road, 1st and 2nd Stage\n
+Yeshwantpur Industrial Suburb,\n
+Rajajinagar Ward No. 10\n
+Bengaluru – 560022\n
+India
+</string>
+    <string name="title_activity_ngo3">ngo3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <!--    <string name="NGO3_info">Saath India foundation started in 2021 with an aim to provide shelter to poor children and elderly of rural areas. The NGO is founded and situated in Village Mauhli, Mirzapur (UP) and have set up a shelter of area 10,000 sq feets, solely dedicated for taking care of needy children and elderly. It aims to serve elder needs in a holistic manner, enabling them to live active, dignified and healthier lives.In a country of 104 million elders, 51 million lives are below the poverty line. By 2050 the number of senior citizens is estimated to rise to 324 million. With more than half the country's elderly living below the poverty line, even day to day survival is crucial. With this increasing burden, COVID-19 has resulted in an increasing poverty rate in India, affecting millions living in the country. To combat this situation, the foundation has setup its offices within the village with the support of gram panchayats. It aims to hear and reach out to the needy people of the village and help them in every possible way. The foundation aims to track senior citizens who are not supported by their families and who have worked hard all their lives but did not have any pension facility, and provide monetary support to them. For poor children, Education is both the means as well as the end to a better life: the means because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behaviour to understanding one's rights – and in the process help him/her evolve as a better citizen. Hence the foundation aims to impart education through its vocational programs to those who can't afford it. The foundation has also started to sponsor group weddings, within the village, for the parents who can't afford to organise weddings on their own for their adult son/daughter. The main of the Saath India foundation is to reach out and help more rural areas of India. In the near future we are planning to build a retirement homes for the elderly people who are alone, face health problems, depression and loneliness. We thrives to builds upon innovative pilot projects and strategic partnerships to extend a helping hand and to protect the rights of India’s needy and provide relief to them through various interventions.What we want to mention is your little harmless help (in the form of money or free service) can brighten their autumn </string>-->
+    <string name="NGO3_info">The Saath India Foundation is a non-profit organization that started in 2021 with a noble aim: to provide shelter and support to poor children and elderly people in rural areas. Situated in Village Mauhli, Mirzapur (UP), they have set up a dedicated shelter spanning an area of 10,000 square feet.
+
+The organization aims to serve the needs of the elderly holistically, enabling them to lead active, dignified, and healthier lives. The statistics paint a concerning picture: in a country of 104 million elders, 51 million live below the poverty line. By 2050, the number of senior citizens is estimated to rise to 324 million. With more than half of the countrys elderly living below the poverty line, even day-to-day survival is a challenge.
+
+The COVID-19 pandemic has exacerbated this situation, leading to an increasing poverty rate in India, impacting millions of lives. In response, the Saath India Foundation has set up offices within the village with the support of the gram panchayats. Their mission is to identify and reach out to those in need within the village and help them in every possible way.
+
+The foundation seeks to identify senior citizens who are not supported by their families and who have worked hard all their lives but do not have any pension facility. For them, the foundation provides monetary support.
+
+For poor children, education is not just a means but also an end to a better life. Education empowers an individual to earn a livelihood and increases awareness on a range of issues. The foundation aims to impart education through its vocational programs to those who cannot afford it.
+
+In addition to these initiatives, the foundation sponsors group weddings within the village for parents who cannot afford to organize weddings for their adult children. The goal is to reach and help more rural areas of India. In the near future, the foundation plans to build retirement homes for elderly people who are alone, face health problems, depression, and loneliness.
+
+The Saath India Foundation builds upon innovative pilot projects and strategic partnerships to extend a helping hand and protect the rights of India’s needy. They provide relief through various interventions and advocate for the support of the community. Every small contribution, whether in the form of money or free service, can make a meaningful difference in the lives of those in need.</string>
+    <string name="Saarth_adjectives">
+
+<b>1)Livelihoods and Microfinance:</b> Saath runs various livelihood programs to provide vocational training and skill development to marginalized communities. It also offers microfinance services to help low-income individuals start small businesses. \n
+
+<b>2)Education:</b>The organization operates several education-related programs, such as the Urmila program, which focuses on mainstreaming out-of-school children, and the Balghar program, which provides early childhood education.  \n
+
+<b>3)Health:</b> Saath runs health-related programs such as the Family Health and Planning program, which provides health services and family planning counseling to women in urban slums. \n
+
+<b>4)Urban Poverty:</b> Saath works to address urban poverty through various initiatives, including housing programs for slum dwellers and community development projects.\n
+
+<b>5)Technology:</b> The foundation also utilizes technology to enhance its programs and reach out to more beneficiaries. For example, it has developed a mobile application called Smart Saath, which provides access to various services and information related to education, health, and livelihoods.</string>
+    <string name="saarth_contact">For more information or to get involved, please reach out to us:\n
+       <b> Email:</b> saath.indiafoundation@gmail.com\n\n
+        <b> Mobile:</b> +919311314825, +919311411225\n\n
+
+ <b>Address</b>:\nRegistered office: 133/C,Patpar Ganj, Delhi-110091 \n
+        \nBranch Office: Mahuli, Post-Ahraura Distt. Mirzapur (U.P), Pin: 231301\n
+  +919311314825, +919311411225\n
+ </string>
+    <string name="saath_help">You can support Saath Foundation by donating, volunteering, or spreading awareness about our cause.</string>
+    <string name="annamitra_program"><ul><b>
+        <ii>1.Mid-Day Meals </ii>\n
+<ii>2.Annamrita Karuna \n</ii>
+<ii>3.Kit of Joy </ii>\n
+<ii>4.Tithi Bhoj </ii>\n
+<ii> 5.Drive </ii>\n
+<ii>6.Karuna Hospital Program</ii></b></ul>
+    </string>
+    <string name="annamitra_help">You can support Annamitra Foundation by donating, volunteering, or spreading awareness about our cause.</string>
+    <string name="annamitra_contact">For more information or to get involved, please reach out to us:\n\n
+        <b>email:</b>info@annamrita.org\n\n
+        <b>Contact:</b>+91 7304433590 \n
++91 7304433591\n
++91 7304433592\n
++91 7304433593\n\n
+        <b>Address:</b>\nHead Office:
+
+ISKCON Chowpatty, 7 K M Munshi Marg,\n
+Girgaon Chowpatty, Mumbai\n
+India – 400 007\n\n
+    Administrative Office:\n
+
+Annamrita Foundation, Unit No. 5, Suvarna House, 1st Floor, Ramakrishna Chemburkar Marg, Opp. BPCL Materials Gate, Mahul, Chembur, Mumbai – 400074</string>
+    <string name="no_one_has_ever_become_poor_from_giving">No one has ever become poor from giving</string>
+    <string name="already_an_user_login">already_an_user_login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_a_user_login">Already a user?Login</string>
+    <string name="not_yet_registered_signup">Not yet registered? Signup</string>
+    <string name="login">Login</string>
+    <string name="NGO4_info">Annamrita Foundation is a non-profit, non-religious, non-sectarian charitable trust set up with the purpose of serving mid-day meals to school kids across India. Formerly known as ISKCON Food Relief Foundation, Annamrita Foundation is the largest Mid Day Meal provider in Maharashtra.
+
+Midday Meal is a strategic program to liberate the underprivileged children from scourge of malnutrition and illiteracy. This program is a project of the Government of India, and is being implemented by by Annamrita in select schools in Delhi, Maharashtra, Rajasthan, Andhra Pradesh, Jharkhand, Haryana and West Bengal.
+Since the launch in 2004, we have set up state-of-the-art kitchens in 7 states. Our kitchens are ISO 22000:2005 certified. As of now, we serve nearly 12 lakhs meals daily to underprivileged children from our various centers across India. Most of these children come from slums and tribal areas. The purpose of implementing this scheme is to facilitate the Government in increasing the enrollment in these schools, reducing the dropout rate and improving the attendance. Also as these are the formative years for the future adult, nutrition is of prime importance.
+
+Today it takes just Rs 450 for an ENTIRE YEAR. ie. just Rs 2 per day per child. We request individuals, corporates, businesses etc. to come forward and help us sustain and further our cause.</string>
+
+</resources>

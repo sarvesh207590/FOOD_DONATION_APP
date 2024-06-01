@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#5F6AC8</color>
+    <!--mi add kele-->
+
+<color name="app_background">#A5E5FF</color>
+<!--    <color name="app_background">#0072A0</color>-->
+
+<!--    tu color change karu shaktos-->
+    <color name="navigation_bar_color">#000C66</color>
+    <color name="grey">#F0F0F0</color>
+    <color name="yellow">#FFBF00</color>
+    <color name="blue">#007BB8</color>
+    <color name="red">#E44646</color>
+    <color name="skyblue">#CDF0FF</color>
+    <color name="dark_skyblue">#A5E5FF</color>
+
+
+
+</resources>

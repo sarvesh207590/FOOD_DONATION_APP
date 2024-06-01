@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/notification_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/app_img" />
+
+    <TextView
+        android:id="@+id/notification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/notification_image"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:text="Thank U for donating "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/notification_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notification_title"
+        android:layout_toRightOf="@id/notification_image"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="You receive a call feom ngo"/>
+
+    <TextView
+        android:id="@+id/receipt"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notification_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="21dp"
+        android:layout_toRightOf="@id/notification_image"
+        android:text=""
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+
+
+</RelativeLayout>

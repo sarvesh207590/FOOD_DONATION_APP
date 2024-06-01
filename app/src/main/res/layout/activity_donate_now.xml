@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/ngoNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/dark_skyblue"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        android:text="Select Options which you have to Donate:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cookedFoodCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cooked Food"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/cookedFoodOptionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:visibility="gone">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dal_chaval"
+            android:text="Dal Chaval"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chapati_bhaji"
+            android:text="Chapati Bhaji"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puri_bhaji"
+            android:text="Puri Bhaji"/>
+
+        <CheckBox
+            android:id="@+id/otherCookedFoodCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"/>
+
+        <EditText
+            android:id="@+id/otherCookedFoodEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specify other cooked food"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/rawFoodCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raw Food"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/rawFoodOptionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+
+        android:visibility="gone">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cereals"
+            android:text="Cereals"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/oil"
+            android:text="Oil"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vegetables"
+            android:text="Vegetables"/>
+
+        <CheckBox
+            android:id="@+id/otherRawFoodCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"/>
+
+        <EditText
+            android:id="@+id/otherRawFoodEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specify other raw food"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/donateCashCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate Cash"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="13sp"/>
+
+    <EditText
+        android:layout_marginLeft="50dp"
+        android:id="@+id/donateCashEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter cash amount"
+        android:ems="10"
+        android:inputType="number"
+        android:visibility="gone"/>
+
+
+
+    <Button
+        android:id="@+id/donateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:onClick="Donatenow2"
+        android:text="Donate Now" />
+
+    <Button
+        android:id="@+id/donatecash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:text="Donate Cash"
+        android:onClick="cashdonate"
+        />
+
+</LinearLayout>
+</ScrollView>

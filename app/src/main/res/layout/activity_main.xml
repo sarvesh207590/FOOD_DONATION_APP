@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ScrollViewSize">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/dark_skyblue"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="122dp"
+            android:layout_height="match_parent"
+            android:backgroundTintMode="add"
+            android:fadingEdge="none"
+            android:text="@string/home"
+            android:textColor="@color/black"
+            app:icon="@drawable/home"
+            android:backgroundTint="@color/dark_skyblue"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="NourishNet"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/dark_skyblue"
+            android:onClick="PROFILE"
+            android:paddingRight="3dp"
+            android:text="@string/profile"
+            android:textColor="@color/black"
+            app:icon="@drawable/profile"
+            tools:ignore="TextContrastCheck">
+
+        </Button>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="#FFFFFF"
+                android:foregroundGravity="center"
+                android:onClick="PROFILE"
+                app:srcCompat="@drawable/main"
+                tools:ignore="ContentDescription,ImageContrastCheck">
+
+            </ImageView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="#EFE58E"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FDFDFD"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="0.0"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/sukarma_ngo"
+                                    tools:ignore="ContentDescription" />
+
+                                <Button
+                                    android:id="@+id/ngo1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="39dp"
+                                    android:layout_marginStart="33dp"
+                                    android:layout_marginEnd="33dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:backgroundTint="#E44646"
+                                    android:onClick="NGO1"
+                                    android:text="Donate Now"
+                                    app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="1.0"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="#FFEB3B"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/akshay"
+                                    tools:ignore="ContentDescription" />
+
+                                <Button
+                                    android:id="@+id/ngo2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="39dp"
+                                    android:layout_marginStart="33dp"
+                                    android:layout_marginEnd="33dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:backgroundTint="#E44646"
+                                    android:onClick="NGO2"
+                                    android:text="Donate Now"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="1.0"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView6"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    android:paddingBottom="16dp"
+                                    app:srcCompat="@drawable/ngo_sath"
+                                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                                <Button
+                                    android:id="@+id/ngo3"
+                                    android:layout_width="0dp"
+                                    android:layout_height="39dp"
+                                    android:layout_marginStart="33dp"
+                                    android:layout_marginEnd="33dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:backgroundTint="#E44646"
+                                    android:onClick="NGO3"
+                                    android:text="Donate Now"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="1.0"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/annamrita_logo"
+                                    android:paddingBottom="18dp"
+                                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                                <Button
+                                    android:id="@+id/ngo4"
+                                    android:layout_width="0dp"
+                                    android:layout_height="39dp"
+                                    android:layout_marginStart="33dp"
+                                    android:layout_marginEnd="33dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:backgroundTint="#E44646"
+                                    android:onClick="NGO4"
+                                    android:text="Donate Now"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="1.0"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    tools:ignore="DuplicateIds,HardcodedText,TextContrastCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="0dp"
+                android:padding="10dp"
+                android:background="@color/grey"
+                android:text="Together,we can end Hunger"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As per the reports of India has ranked 111th out of 125 countries in Global HUnger Index(GHI) with a scre of 28.7. \nThus,we need to improve the situation!!"
+                android:textColor="@color/black"
+                android:background="@color/grey"
+                android:textSize="15sp"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                android:background="@drawable/rounded_corner"
+
+
+                android:backgroundTint="@color/dark_skyblue"
+
+                android:gravity="clip_horizontal|center"
+                android:text="Feed the need, end hunger.\n
+            Share a meal, heal hunger.\n
+            Nourish hope, conquer hunger.\n
+            Satisfy hunger, spread joy.\n
+            Together, we can fill empty plates.\n
+            Don't let hunger linger, be a giver.\n
+            One can at a time, make hunger disappear.\n
+            Fuel compassion, erase hunger.\n
+            Every meal matters, every donation counts.\n
+            Join the fight, feed the world."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+            <!--    android:background="@color/dark_skyblue"-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/rounded_corner"
+                app:srcCompat="@drawable/app_img"
+                tools:ignore="ContentDescription,ImageContrastCheck">
+
+            </ImageView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
